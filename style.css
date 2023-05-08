@@ -1,0 +1,25 @@
+body{
+    box-sizing: border-box;
+    background-repeat: repeat;
+  background-image: url(image.webp);
+    
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.header{
+    background: rgb(189, 222, 249);
+    padding: 25px;
+    max-width: 500px;
+    margin:auto;
+    flex-basis: 40%;
+    display: flex;
+    height: 400px;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgb(46, 72, 93);
+    justify-content: center;
+}

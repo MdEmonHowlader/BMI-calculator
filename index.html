@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="center">
+        <div class="header">
+            <div>
+                <h1 style="color: rgb(249, 7, 217);">BMI Calculator</h1>
+                <form action="">
+                    <label for="weightInput" style="color:blue">Weight</label>
+                    <input type="number" id="weightInput" name="weight" required autofocus placeholder="kg">
+                    <br>
+                    <br>
+                    <label for="heightInput" style="color:blue">Height</label>
+                    <input type="number" id="heightInput" name="height" required placeholder="m">
+                    <br>
+                    <br>
+
+                    <button id="calculateBtn" style="color:red">Calculate</button>
+                    <p id="result"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
